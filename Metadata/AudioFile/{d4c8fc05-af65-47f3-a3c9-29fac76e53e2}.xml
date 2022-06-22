@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{d4c8fc05-af65-47f3-a3c9-29fac76e53e2}">
+		<property name="assetPath">
+			<value>Hit/Metal hit/HIT_Metal_Crash_Ladder_06.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.2064895833333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{006a0af2-fde3-42f0-b397-dbcc4d039a1b}</destination>
+		</relationship>
+	</object>
+</objects>

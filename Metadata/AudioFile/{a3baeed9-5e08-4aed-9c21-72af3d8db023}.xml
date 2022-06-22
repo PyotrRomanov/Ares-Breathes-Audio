@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{a3baeed9-5e08-4aed-9c21-72af3d8db023}">
+		<property name="assetPath">
+			<value>Hydraulics/G4F SFX09 - METAL - Mixer Type 2 in Metal Vent - Short - Contact 3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.4683541666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{006a0af2-fde3-42f0-b397-dbcc4d039a1b}</destination>
+		</relationship>
+	</object>
+</objects>

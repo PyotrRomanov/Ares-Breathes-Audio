@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{acfea845-8e92-4adb-ac4f-ab64c0a23a9d}">
+		<property name="name">
+			<value>GustStrength</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1aa2f304-f33b-45f5-a765-72dbce712cdd}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ab9e2281-f21d-459e-a459-ead4cd7b768d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ab9e2281-f21d-459e-a459-ead4cd7b768d}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

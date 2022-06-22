@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{2971f65f-25cb-4ef5-9f20-40aae6165d1d}">
+		<property name="assetPath">
+			<value>Hit/mixkit-fast-sword-hit-in-medieval-battle-2764.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0490929705215419</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{006a0af2-fde3-42f0-b397-dbcc4d039a1b}</destination>
+		</relationship>
+	</object>
+</objects>

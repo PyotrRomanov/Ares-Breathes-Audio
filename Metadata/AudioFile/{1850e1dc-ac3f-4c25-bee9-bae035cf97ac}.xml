@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{1850e1dc-ac3f-4c25-bee9-bae035cf97ac}">
+		<property name="assetPath">
+			<value>Metal pull/Metalscrape looping.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.62607709750566898</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{006a0af2-fde3-42f0-b397-dbcc4d039a1b}</destination>
+		</relationship>
+	</object>
+</objects>

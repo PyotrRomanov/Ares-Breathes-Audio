@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{aab5c072-e269-47bd-888c-7ef49c2124e8}">
+		<property name="name">
+			<value>GapSize</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1aa2f304-f33b-45f5-a765-72dbce712cdd}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8e0b4d4e-10c4-4fa8-adbb-9743d35ccf26}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8e0b4d4e-10c4-4fa8-adbb-9743d35ccf26}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

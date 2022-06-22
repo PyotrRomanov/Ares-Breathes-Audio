@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{a3a55e4e-8e8d-42f7-b2ae-3ed6180f3549}">
+		<property name="name">
+			<value>TimeSinceStandstill</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1aa2f304-f33b-45f5-a765-72dbce712cdd}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3b901ecc-d45e-471e-823b-e4eab8a7a2fc}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3b901ecc-d45e-471e-823b-e4eab8a7a2fc}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
