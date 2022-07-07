@@ -8,7 +8,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{682dde25-a14e-42cf-bb2b-b56e8250c89e}</destination>
+			<destination>{bfbf3ed7-df03-4da5-8bfd-14845d7670ae}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{6f35de4b-02f4-4e33-86ae-f26a72a83eed}</destination>
@@ -53,7 +53,7 @@
 			<destination>{7c409be6-e291-4ee3-b546-ed7bad930926}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0ebac9da-b2a7-45e2-8368-716bb3311066}</destination>
+			<destination>{19475bdb-d5db-4a75-b1f3-ef71e43e2c61}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3aaf07bf-59b4-4622-bb8e-15cb46df1b50}" />
@@ -160,7 +160,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{cc3bd4e6-519b-460c-8291-8550d60f3404}">
 		<relationship name="effects">
-			<destination>{78da5f70-1cb5-47ec-8021-594b4ad46e2f}</destination>
 			<destination>{5533e45a-f44b-4f25-aace-ed62acdd3e6b}</destination>
 		</relationship>
 	</object>
@@ -169,14 +168,6 @@
 	<object class="SpatialiserEffect" id="{215cba4e-4f82-4b62-a176-3fae50517710}">
 		<property name="maximumDistance">
 			<value>25</value>
-		</property>
-	</object>
-	<object class="MultibandEqEffect" id="{78da5f70-1cb5-47ec-8021-594b4ad46e2f}">
-		<property name="frequencyA">
-			<value>295.662567</value>
-		</property>
-		<property name="qualityA">
-			<value>0.775642395</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{5533e45a-f44b-4f25-aace-ed62acdd3e6b}" />

@@ -8,7 +8,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{682dde25-a14e-42cf-bb2b-b56e8250c89e}</destination>
+			<destination>{bfbf3ed7-df03-4da5-8bfd-14845d7670ae}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{48ad956d-f4a5-4065-908f-508df6f2397f}</destination>
@@ -64,7 +64,7 @@
 			<destination>{e1ef4556-e6df-4e6b-b875-4faea838f3d0}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0ebac9da-b2a7-45e2-8368-716bb3311066}</destination>
+			<destination>{19475bdb-d5db-4a75-b1f3-ef71e43e2c61}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{77267f93-e1f6-4f48-a1ce-2bdc81bb1447}" />
@@ -298,7 +298,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{7ad105df-7d16-495e-8511-f28affdccabb}">
 		<relationship name="effects">
-			<destination>{e97c9f71-b71d-4727-a1ce-8358c814d925}</destination>
 			<destination>{25d1ca48-5f4c-43ed-a3e8-e91323161d7b}</destination>
 			<destination>{548d1a7f-cb1c-498b-a2eb-9ce5d5b07c27}</destination>
 			<destination>{982a531e-64b1-493f-a864-57be46bf6b30}</destination>
@@ -478,7 +477,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{47842eee-9707-42d6-957e-b92d8ac74903}">
 		<relationship name="effects">
-			<destination>{f8ebd0fd-3bfc-4124-9fe5-165860d6832c}</destination>
 			<destination>{2b449aac-ec0c-4b38-a2b8-68379455b2a1}</destination>
 		</relationship>
 	</object>
@@ -507,14 +505,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2008d816-b4af-474f-a387-0aedd60e8844}" />
-	<object class="MultibandEqEffect" id="{e97c9f71-b71d-4727-a1ce-8358c814d925}">
-		<property name="frequencyA">
-			<value>1685.17639</value>
-		</property>
-		<property name="qualityA">
-			<value>0.591913342</value>
-		</property>
-	</object>
 	<object class="SFXReverbEffect" id="{25d1ca48-5f4c-43ed-a3e8-e91323161d7b}">
 		<property name="decayTime">
 			<value>700</value>
@@ -574,7 +564,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{6341101d-5435-4882-888c-c03c831c5627}" />
-	<object class="MultibandEqEffect" id="{f8ebd0fd-3bfc-4124-9fe5-165860d6832c}" />
 	<object class="MixerBusFader" id="{2b449aac-ec0c-4b38-a2b8-68379455b2a1}" />
 	<object class="MixerBusFader" id="{63e65931-7586-407c-a9b2-61ad9b3a3b84}" />
 	<object class="Automator" id="{80b71efc-5957-4aee-a24b-c3405179fbce}">

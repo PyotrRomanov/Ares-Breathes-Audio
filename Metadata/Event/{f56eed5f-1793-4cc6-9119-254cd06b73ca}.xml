@@ -8,7 +8,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{682dde25-a14e-42cf-bb2b-b56e8250c89e}</destination>
+			<destination>{bfbf3ed7-df03-4da5-8bfd-14845d7670ae}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{71eaca06-28f4-478f-a22b-3cc02c08c3c4}</destination>
@@ -176,7 +176,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{1d5ddea6-cadb-4e28-8a78-59116799e20b}">
 		<relationship name="effects">
-			<destination>{b6752bc4-efb1-4a38-ac82-c477c3a43262}</destination>
 			<destination>{db831b90-25bd-4e11-8085-31c66d3d8f2d}</destination>
 			<destination>{107156d9-53ab-435e-93e4-adfbf7722101}</destination>
 			<destination>{1435f634-5b01-475d-ac2b-5389b6cf7f87}</destination>
@@ -187,17 +186,6 @@
 	<object class="SpatialiserEffect" id="{6bf5e0f8-a331-4148-b997-dcc441bc54bb}">
 		<property name="maximumDistance">
 			<value>45</value>
-		</property>
-	</object>
-	<object class="MultibandEqEffect" id="{b6752bc4-efb1-4a38-ac82-c477c3a43262}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
-		<property name="frequencyA">
-			<value>2252.2688</value>
-		</property>
-		<property name="qualityA">
-			<value>1.49288619</value>
 		</property>
 	</object>
 	<object class="PitchShifterEffect" id="{db831b90-25bd-4e11-8085-31c66d3d8f2d}">

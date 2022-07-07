@@ -8,7 +8,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{682dde25-a14e-42cf-bb2b-b56e8250c89e}</destination>
+			<destination>{bfbf3ed7-df03-4da5-8bfd-14845d7670ae}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{c7123e7e-b055-4d39-add4-5a8f1ed564eb}</destination>
@@ -55,7 +55,7 @@
 			<destination>{34c7aafb-ca42-481e-8d4a-1440872d7944}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0ebac9da-b2a7-45e2-8368-716bb3311066}</destination>
+			<destination>{19475bdb-d5db-4a75-b1f3-ef71e43e2c61}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{175471c6-f37b-405b-8014-6c8a30e30eef}" />
@@ -200,6 +200,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{95c3330e-9102-4411-be3e-e873470e103f}">
 		<relationship name="effects">
+			<destination>{9bec07fd-6d3e-4083-9c58-4bc62b3431ad}</destination>
 			<destination>{1b9c757c-9907-478d-8a9c-3a3cf2d5f417}</destination>
 			<destination>{72f95bac-2442-44d0-b310-841f92c519b9}</destination>
 		</relationship>
@@ -251,6 +252,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4505c38c-5102-4713-abb8-24c46e7f6545}" />
+	<object class="MultibandEqEffect" id="{9bec07fd-6d3e-4083-9c58-4bc62b3431ad}" />
 	<object class="MixerBusFader" id="{1b9c757c-9907-478d-8a9c-3a3cf2d5f417}" />
 	<object class="SpatialiserEffect" id="{72f95bac-2442-44d0-b310-841f92c519b9}">
 		<property name="distanceRolloffType">

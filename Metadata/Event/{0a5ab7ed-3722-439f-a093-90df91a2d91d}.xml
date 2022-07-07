@@ -8,7 +8,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{682dde25-a14e-42cf-bb2b-b56e8250c89e}</destination>
+			<destination>{bfbf3ed7-df03-4da5-8bfd-14845d7670ae}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{68d65bd0-ab2f-4e72-be9c-052109812229}</destination>
@@ -56,7 +56,7 @@
 			<destination>{77ced692-db58-4337-a416-dbbb226f18d2}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0ebac9da-b2a7-45e2-8368-716bb3311066}</destination>
+			<destination>{19475bdb-d5db-4a75-b1f3-ef71e43e2c61}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{6564644d-eaee-4238-b503-2af9bd594618}" />
@@ -314,7 +314,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{3939c3c9-952c-4909-b52f-8ab3f380a9b6}">
 		<relationship name="effects">
-			<destination>{4555c58c-eac2-4bb3-8277-7e0dfc166a07}</destination>
 			<destination>{ec5e163f-78ae-4ef1-9069-9926a2e50cd1}</destination>
 		</relationship>
 	</object>
@@ -339,7 +338,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{8b790134-3896-474e-8f71-ad50bee39fa9}">
 		<relationship name="effects">
-			<destination>{af9c7503-2309-49d2-8ba8-f17f3bf8460e}</destination>
 			<destination>{eefe5c88-3ce3-475c-aca0-55798e0affc3}</destination>
 		</relationship>
 	</object>
@@ -495,7 +493,6 @@
 			<destination>{4f17e47e-bfa0-4391-b3cd-68f9cc2f762a}</destination>
 		</relationship>
 	</object>
-	<object class="MultibandEqEffect" id="{4555c58c-eac2-4bb3-8277-7e0dfc166a07}" />
 	<object class="MixerBusFader" id="{ec5e163f-78ae-4ef1-9069-9926a2e50cd1}" />
 	<object class="AutomationPoint" id="{bf8c5344-bfa3-461e-8ca4-233ee8fcbe8e}">
 		<property name="position">
@@ -516,6 +513,5 @@
 			<value>0</value>
 		</property>
 	</object>
-	<object class="MultibandEqEffect" id="{af9c7503-2309-49d2-8ba8-f17f3bf8460e}" />
 	<object class="MixerBusFader" id="{eefe5c88-3ce3-475c-aca0-55798e0affc3}" />
 </objects>

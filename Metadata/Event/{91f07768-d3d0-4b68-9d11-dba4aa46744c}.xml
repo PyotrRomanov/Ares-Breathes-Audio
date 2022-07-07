@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{91f07768-d3d0-4b68-9d11-dba4aa46744c}">
 		<property name="name">
-			<value>Sandstorm</value>
+			<value>Sandstorm old</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{682dde25-a14e-42cf-bb2b-b56e8250c89e}</destination>
+			<destination>{ee0b7c58-d0b2-4f86-b0f0-725443e87c28}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{3ce93d05-24a7-4c76-a7c0-e0aa68d6cde8}</destination>
