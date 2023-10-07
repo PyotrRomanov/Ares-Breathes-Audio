@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{bb0a5ee2-bb48-4c1d-b875-ea85f53dd427}">
+		<property name="name">
+			<value>PlayerStateVar</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1aa2f304-f33b-45f5-a765-72dbce712cdd}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{fea2e9f4-ef93-490c-bf4d-d9a5cbb3d2f7}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{fea2e9f4-ef93-490c-bf4d-d9a5cbb3d2f7}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Hull</value>
+			<value>Oxygen</value>
+			<value>Water</value>
+			<value>Energy</value>
+			<value>Temperature</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

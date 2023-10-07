@@ -72,9 +72,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{142d38d0-80aa-4b8c-8b8c-b2ac67fa81a8}">
-		<property name="volume">
-			<value>-1</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{55bd90ce-e2a2-4c60-a9c3-a2f3e101c932}</destination>
 		</relationship>
@@ -161,7 +158,7 @@
 			<value>2</value>
 		</property>
 		<property name="maximumDistance">
-			<value>40</value>
+			<value>90</value>
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{28e2d55f-2445-4fe4-9bb5-73a9926fd91e}">
