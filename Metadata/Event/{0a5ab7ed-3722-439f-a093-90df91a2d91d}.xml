@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0a5ab7ed-3722-439f-a093-90df91a2d91d}">
 		<property name="name">
 			<value>KilopowerWingUnfold</value>
@@ -59,7 +59,11 @@
 			<destination>{19475bdb-d5db-4a75-b1f3-ef71e43e2c61}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{6564644d-eaee-4238-b503-2af9bd594618}" />
+	<object class="EventAutomatableProperties" id="{6564644d-eaee-4238-b503-2af9bd594618}">
+		<property name="maximumDistance">
+			<value>75</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{023980f2-35fe-409d-828a-c3136f1e2851}" />
 	<object class="GroupTrack" id="{f6995f0f-1e15-4926-84ef-be92c9e5ec72}">
 		<relationship name="modules">
@@ -95,9 +99,9 @@
 	</object>
 	<object class="Timeline" id="{f40419a3-db20-4faf-b7f0-cde9cf3a90bd}">
 		<relationship name="modules">
+			<destination>{6ee099a8-6439-4d56-8d53-5e123817810a}</destination>
 			<destination>{fcff75a6-499e-4046-a5de-85378afdf707}</destination>
 			<destination>{8f99d118-5a00-4072-8684-9887b94cec2e}</destination>
-			<destination>{6ee099a8-6439-4d56-8d53-5e123817810a}</destination>
 			<destination>{6683bf6b-5768-496d-a07a-cf2e63bcbea8}</destination>
 		</relationship>
 	</object>

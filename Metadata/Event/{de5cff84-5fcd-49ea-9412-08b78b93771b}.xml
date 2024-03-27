@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{de5cff84-5fcd-49ea-9412-08b78b93771b}">
 		<property name="name">
 			<value>StabilizerSpikeOpen</value>
@@ -63,7 +63,11 @@
 			<destination>{d5d7c56a-35bd-4a92-9fce-6eeab9bafc4f}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{52553f03-d2dc-42b3-92e0-4fefb32420dd}" />
+	<object class="EventAutomatableProperties" id="{52553f03-d2dc-42b3-92e0-4fefb32420dd}">
+		<property name="maximumDistance">
+			<value>60</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{1d12f300-58e3-49f5-8416-c034a2d217cb}" />
 	<object class="GroupTrack" id="{b7ff04e0-9f08-413a-8361-8f56be279f65}">
 		<relationship name="modules">

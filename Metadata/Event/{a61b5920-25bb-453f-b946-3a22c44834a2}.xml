@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{a61b5920-25bb-453f-b946-3a22c44834a2}">
 		<property name="name">
 			<value>SandShift</value>
@@ -56,7 +56,11 @@
 			<destination>{0ebac9da-b2a7-45e2-8368-716bb3311066}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{4fdb7fee-e3cd-4ebf-b469-22dbdebd6459}" />
+	<object class="EventAutomatableProperties" id="{4fdb7fee-e3cd-4ebf-b469-22dbdebd6459}">
+		<property name="maximumDistance">
+			<value>10</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{e01b54a8-8da1-4b4e-9b87-7b4a00b88dad}" />
 	<object class="GroupTrack" id="{f21eca8f-14f8-4514-bf14-364c00215b8b}">
 		<relationship name="modules">

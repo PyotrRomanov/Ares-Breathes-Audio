@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f22e8c1c-51b2-47a6-86ad-83832b751e38}">
 		<property name="name">
 			<value>AntennaUnfold</value>
@@ -58,7 +58,14 @@
 			<destination>{19475bdb-d5db-4a75-b1f3-ef71e43e2c61}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{175471c6-f37b-405b-8014-6c8a30e30eef}" />
+	<object class="EventAutomatableProperties" id="{175471c6-f37b-405b-8014-6c8a30e30eef}">
+		<property name="minimumDistance">
+			<value>4.80000019</value>
+		</property>
+		<property name="maximumDistance">
+			<value>850</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{b427c4af-3b46-44c0-9c86-8f1ecab6eb15}" />
 	<object class="GroupTrack" id="{cd4a9f7e-b7dc-4587-8f5b-e5958dc1b7ec}">
 		<relationship name="modules">

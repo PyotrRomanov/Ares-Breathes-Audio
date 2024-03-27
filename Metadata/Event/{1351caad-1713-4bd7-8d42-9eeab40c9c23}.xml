@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1351caad-1713-4bd7-8d42-9eeab40c9c23}">
 		<property name="name">
 			<value>StabilizerFlapOpen</value>
@@ -56,7 +56,11 @@
 			<destination>{d5d7c56a-35bd-4a92-9fce-6eeab9bafc4f}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{f0607c26-1d26-49aa-be29-d20d0a9353e2}" />
+	<object class="EventAutomatableProperties" id="{f0607c26-1d26-49aa-be29-d20d0a9353e2}">
+		<property name="maximumDistance">
+			<value>70</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{d74a2ad8-96b5-4918-a6b8-054e01a945be}" />
 	<object class="GroupTrack" id="{937ce75c-33e7-4e6c-bbbe-9afd653399b2}">
 		<relationship name="modules">

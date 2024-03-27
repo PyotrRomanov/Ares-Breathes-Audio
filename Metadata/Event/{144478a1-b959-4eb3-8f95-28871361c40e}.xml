@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{144478a1-b959-4eb3-8f95-28871361c40e}">
 		<property name="name">
 			<value>ElectricityLoop</value>
@@ -71,8 +71,8 @@
 	<object class="Timeline" id="{97e0b540-d20e-4734-9644-a9fb49d6a614}">
 		<relationship name="modules">
 			<destination>{5e318692-93cd-4882-9ad1-2818c6ba9b93}</destination>
-			<destination>{5f3cdcba-9850-4cc3-9776-802abe1b8480}</destination>
 			<destination>{6a7798d9-1082-4682-8966-5670924ce63c}</destination>
+			<destination>{5f3cdcba-9850-4cc3-9776-802abe1b8480}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{3187b8e8-4375-4ca8-be9e-eef9f7fe650f}</destination>

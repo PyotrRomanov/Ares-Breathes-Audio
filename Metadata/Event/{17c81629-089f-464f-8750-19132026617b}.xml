@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{17c81629-089f-464f-8750-19132026617b}">
 		<property name="name">
 			<value>HosePull</value>

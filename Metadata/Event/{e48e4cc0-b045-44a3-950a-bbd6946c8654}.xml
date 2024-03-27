@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e48e4cc0-b045-44a3-950a-bbd6946c8654}">
 		<property name="name">
 			<value>DefaultTargetedSound</value>
@@ -58,7 +58,11 @@
 			<destination>{d5d7c56a-35bd-4a92-9fce-6eeab9bafc4f}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{7d1455b5-fd58-48ce-a394-198b205f6709}" />
+	<object class="EventAutomatableProperties" id="{7d1455b5-fd58-48ce-a394-198b205f6709}">
+		<property name="maximumDistance">
+			<value>95</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{12a94968-bd8b-4536-99a3-8b0d9b222f95}" />
 	<object class="GroupTrack" id="{94c5c5e5-0901-430c-9e67-e27352a3397e}">
 		<relationship name="modules">
@@ -86,9 +90,9 @@
 	</object>
 	<object class="Timeline" id="{26e42760-36be-446e-b6d6-7d2c3900cefb}">
 		<relationship name="modules">
+			<destination>{86b643ee-f18d-4217-9be3-cb1dccc75110}</destination>
 			<destination>{1e3fb11c-3bfd-4959-9427-e77701a9772e}</destination>
 			<destination>{1797c12a-565a-4fad-81b6-773ca306bce7}</destination>
-			<destination>{86b643ee-f18d-4217-9be3-cb1dccc75110}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b86e9d7f-289f-4d51-9424-6e12f337cef3}">

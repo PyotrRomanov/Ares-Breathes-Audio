@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{48640385-3042-45d0-a6be-491e24bf3555}">
 		<property name="name">
 			<value>Scan</value>
@@ -56,7 +56,11 @@
 			<destination>{d5d7c56a-35bd-4a92-9fce-6eeab9bafc4f}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{8b452a4f-a1e8-4955-bf85-bbc0ff873c53}" />
+	<object class="EventAutomatableProperties" id="{8b452a4f-a1e8-4955-bf85-bbc0ff873c53}">
+		<property name="maximumDistance">
+			<value>2600</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{56e2708e-865e-4036-9475-88e59195bbb0}" />
 	<object class="GroupTrack" id="{ffaf840d-7951-4f04-baa8-0e5434d9291b}">
 		<relationship name="modules">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{c289d268-ea08-406d-b547-2bca8ce761b9}">
 		<property name="name">
 			<value>InsertMetal</value>
@@ -56,7 +56,11 @@
 			<destination>{19475bdb-d5db-4a75-b1f3-ef71e43e2c61}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{3aaf07bf-59b4-4622-bb8e-15cb46df1b50}" />
+	<object class="EventAutomatableProperties" id="{3aaf07bf-59b4-4622-bb8e-15cb46df1b50}">
+		<property name="maximumDistance">
+			<value>25</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{57c6a6e0-2255-4be8-8c61-8a3233944fbb}" />
 	<object class="GroupTrack" id="{e7b3da38-e0c1-4eab-978d-5d82f8b12362}">
 		<relationship name="modules">

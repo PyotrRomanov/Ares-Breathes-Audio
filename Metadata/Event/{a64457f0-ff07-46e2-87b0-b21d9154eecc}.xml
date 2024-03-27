@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{a64457f0-ff07-46e2-87b0-b21d9154eecc}">
 		<property name="name">
 			<value>PlayerStateWarning</value>
@@ -87,8 +87,8 @@
 	</object>
 	<object class="GroupTrack" id="{14b361c6-e99d-46c4-b231-7fc95a979fb5}">
 		<relationship name="modules">
-			<destination>{46ca0cf8-6027-4f31-9274-3ce47799e725}</destination>
 			<destination>{b02aa170-f412-423f-a6fe-eed3cb78a285}</destination>
+			<destination>{46ca0cf8-6027-4f31-9274-3ce47799e725}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{c6b7cf87-fedc-462d-ba40-e233166b0bb4}</destination>
@@ -243,9 +243,9 @@
 			<destination>{5b7d45a3-5021-4408-bc1d-d4770ec42c5b}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{46ca0cf8-6027-4f31-9274-3ce47799e725}">
+	<object class="SingleSound" id="{b02aa170-f412-423f-a6fe-eed3cb78a285}">
 		<property name="start">
-			<value>0.45000000000000001</value>
+			<value>1.25</value>
 		</property>
 		<property name="length">
 			<value>0.32500000000000001</value>
@@ -254,9 +254,9 @@
 			<destination>{5bff47f3-7683-4d91-a504-cca18ebbe944}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{b02aa170-f412-423f-a6fe-eed3cb78a285}">
+	<object class="SingleSound" id="{46ca0cf8-6027-4f31-9274-3ce47799e725}">
 		<property name="start">
-			<value>1.25</value>
+			<value>0.45000000000000001</value>
 		</property>
 		<property name="length">
 			<value>0.32500000000000001</value>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{8abcb5bb-4bc0-4914-9612-e5b4f0d186dd}">
 		<property name="name">
 			<value>GunCharge</value>
@@ -59,7 +59,11 @@
 			<destination>{0ebac9da-b2a7-45e2-8368-716bb3311066}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{805d3a9c-6f7d-49bd-8ea5-960c4af37020}" />
+	<object class="EventAutomatableProperties" id="{805d3a9c-6f7d-49bd-8ea5-960c4af37020}">
+		<property name="maximumDistance">
+			<value>45</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{75f59960-3aea-4b9a-8294-aa5c2e825b98}" />
 	<object class="GroupTrack" id="{1751421a-b116-4396-be91-29cbf04812d5}">
 		<relationship name="automationTracks">
@@ -254,17 +258,9 @@
 			<destination>{8e0b4d4e-10c4-4fa8-adbb-9743d35ccf26}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{60a245e2-518a-404e-bce5-e6164c2c3983}</destination>
 			<destination>{7131918b-f21f-4d60-86c7-7c04d4eda5e2}</destination>
+			<destination>{60a245e2-518a-404e-bce5-e6164c2c3983}</destination>
 		</relationship>
-	</object>
-	<object class="AutomationPoint" id="{60a245e2-518a-404e-bce5-e6164c2c3983}">
-		<property name="position">
-			<value>0.99863170903954801</value>
-		</property>
-		<property name="value">
-			<value>1.17999995</value>
-		</property>
 	</object>
 	<object class="AutomationPoint" id="{7131918b-f21f-4d60-86c7-7c04d4eda5e2}">
 		<property name="position">
@@ -272,6 +268,14 @@
 		</property>
 		<property name="value">
 			<value>0.919999957</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{60a245e2-518a-404e-bce5-e6164c2c3983}">
+		<property name="position">
+			<value>0.99863170903954801</value>
+		</property>
+		<property name="value">
+			<value>1.17999995</value>
 		</property>
 	</object>
 </objects>

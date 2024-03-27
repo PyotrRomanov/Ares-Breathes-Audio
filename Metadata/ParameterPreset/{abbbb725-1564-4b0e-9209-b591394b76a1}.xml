@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{abbbb725-1564-4b0e-9209-b591394b76a1}">
+		<property name="name">
+			<value>Storm 2</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1aa2f304-f33b-45f5-a765-72dbce712cdd}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{0fb44c46-88ab-48f4-93b2-c30627dccf58}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{0fb44c46-88ab-48f4-93b2-c30627dccf58}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Intense</value>
+			<value>Calm</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

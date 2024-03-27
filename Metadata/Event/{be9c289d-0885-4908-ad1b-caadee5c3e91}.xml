@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{be9c289d-0885-4908-ad1b-caadee5c3e91}">
 		<property name="name">
 			<value>Glass Shard Break</value>
@@ -57,7 +57,11 @@
 			<destination>{19475bdb-d5db-4a75-b1f3-ef71e43e2c61}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{f6561aee-8877-4091-b8bd-01ef3824003d}" />
+	<object class="EventAutomatableProperties" id="{f6561aee-8877-4091-b8bd-01ef3824003d}">
+		<property name="maximumDistance">
+			<value>85</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{112601f9-8a79-4c35-8c5c-0858a2ce3b2d}" />
 	<object class="GroupTrack" id="{8835c56f-6c99-4d1c-bb51-6c7a0432a3f7}">
 		<relationship name="modules">

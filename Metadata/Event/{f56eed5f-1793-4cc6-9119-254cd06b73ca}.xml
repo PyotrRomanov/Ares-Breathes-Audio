@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f56eed5f-1793-4cc6-9119-254cd06b73ca}">
 		<property name="name">
 			<value>AirLeak</value>
@@ -59,7 +59,11 @@
 			<destination>{0ebac9da-b2a7-45e2-8368-716bb3311066}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{20153ba2-2e89-486b-8113-03ea375afc78}" />
+	<object class="EventAutomatableProperties" id="{20153ba2-2e89-486b-8113-03ea375afc78}">
+		<property name="maximumDistance">
+			<value>45</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{add8c510-9e75-46f8-a5fe-9cb583f1579f}" />
 	<object class="GroupTrack" id="{9ddcef9e-f5f8-4813-8242-16b1b69a8e3f}">
 		<relationship name="automationTracks">
@@ -236,17 +240,9 @@
 			<destination>{8e0b4d4e-10c4-4fa8-adbb-9743d35ccf26}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{420942c0-577a-4bda-a999-7bf74fc64eed}</destination>
 			<destination>{20369fb4-18de-42ae-afca-4701300c65f8}</destination>
+			<destination>{420942c0-577a-4bda-a999-7bf74fc64eed}</destination>
 		</relationship>
-	</object>
-	<object class="AutomationPoint" id="{420942c0-577a-4bda-a999-7bf74fc64eed}">
-		<property name="position">
-			<value>0.99863170903954801</value>
-		</property>
-		<property name="value">
-			<value>1.17999995</value>
-		</property>
 	</object>
 	<object class="AutomationPoint" id="{20369fb4-18de-42ae-afca-4701300c65f8}">
 		<property name="position">
@@ -254,6 +250,14 @@
 		</property>
 		<property name="value">
 			<value>0.919999957</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{420942c0-577a-4bda-a999-7bf74fc64eed}">
+		<property name="position">
+			<value>0.99863170903954801</value>
+		</property>
+		<property name="value">
+			<value>1.17999995</value>
 		</property>
 	</object>
 </objects>

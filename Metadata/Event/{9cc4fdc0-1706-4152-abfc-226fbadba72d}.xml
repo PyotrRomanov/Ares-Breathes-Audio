@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9cc4fdc0-1706-4152-abfc-226fbadba72d}">
 		<property name="name">
 			<value>Thruster</value>
@@ -57,7 +57,11 @@
 			<destination>{d5d7c56a-35bd-4a92-9fce-6eeab9bafc4f}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{7302a083-1737-459f-aec1-9b15e75190dd}" />
+	<object class="EventAutomatableProperties" id="{7302a083-1737-459f-aec1-9b15e75190dd}">
+		<property name="maximumDistance">
+			<value>200</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{08db19a8-1169-4d4b-b728-1847a37dc54c}" />
 	<object class="GroupTrack" id="{964f5104-5581-4c48-a768-e037d8e2bf60}">
 		<relationship name="modules">

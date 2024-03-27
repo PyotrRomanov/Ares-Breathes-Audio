@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{4bfaebb1-95ad-4207-9e93-f59eee98e46f}">
 		<property name="name">
 			<value>AirlockDoor</value>
@@ -58,7 +58,14 @@
 			<destination>{19475bdb-d5db-4a75-b1f3-ef71e43e2c61}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{893b58f5-260e-46b9-bf2d-adbcb683d024}" />
+	<object class="EventAutomatableProperties" id="{893b58f5-260e-46b9-bf2d-adbcb683d024}">
+		<property name="minimumDistance">
+			<value>4.80000019</value>
+		</property>
+		<property name="maximumDistance">
+			<value>850</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{856f726b-0a18-44cd-8f85-81927eadb4b2}" />
 	<object class="GroupTrack" id="{1bc1a34a-0880-4e9a-bc37-e96fff4c81ee}">
 		<relationship name="modules">
@@ -86,9 +93,9 @@
 	</object>
 	<object class="Timeline" id="{2f742cc6-43a0-45c0-97f0-57d99cad3ef2}">
 		<relationship name="modules">
+			<destination>{0a864362-10ae-4e74-a7cb-6e355e72cb32}</destination>
 			<destination>{bd270bdb-d9cb-4ab7-b333-d155fcb874fd}</destination>
 			<destination>{527b608c-746b-458b-a218-7d9431426e3b}</destination>
-			<destination>{0a864362-10ae-4e74-a7cb-6e355e72cb32}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{eb7785d2-c674-4c92-8df6-129e44266a34}">

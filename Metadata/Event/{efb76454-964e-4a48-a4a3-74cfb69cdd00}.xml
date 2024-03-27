@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{efb76454-964e-4a48-a4a3-74cfb69cdd00}">
 		<property name="name">
 			<value>Booster Decouple</value>
@@ -61,7 +61,11 @@
 			<destination>{d5d7c56a-35bd-4a92-9fce-6eeab9bafc4f}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{1619acab-a435-4faa-add2-f4c8e21fe5e3}" />
+	<object class="EventAutomatableProperties" id="{1619acab-a435-4faa-add2-f4c8e21fe5e3}">
+		<property name="maximumDistance">
+			<value>300</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{c060b5b8-93a2-44d0-b67c-710db5dbb4a3}" />
 	<object class="GroupTrack" id="{870ed118-cf9b-4385-ae75-2828ee86f40e}">
 		<relationship name="modules">

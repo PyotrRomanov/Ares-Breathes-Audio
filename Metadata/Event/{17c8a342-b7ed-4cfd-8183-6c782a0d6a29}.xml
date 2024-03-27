@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{17c8a342-b7ed-4cfd-8183-6c782a0d6a29}">
 		<property name="name">
 			<value>LogUpdate</value>

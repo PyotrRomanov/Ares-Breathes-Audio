@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{5687d2b5-5615-4d95-8860-98e5a19e494b}">
 		<property name="name">
 			<value>ScrollerSwitch</value>
@@ -77,8 +77,8 @@
 	</object>
 	<object class="Timeline" id="{7b475215-10e5-4222-b8ce-8ce70089160f}">
 		<relationship name="modules">
-			<destination>{65f1dff6-90ff-43e6-a2ad-b6b55a90a14f}</destination>
 			<destination>{b7e5a1cb-d959-4d4a-99b5-03cd7bf91c17}</destination>
+			<destination>{65f1dff6-90ff-43e6-a2ad-b6b55a90a14f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{239db716-21c5-4939-8559-33a1f6a6e28b}">

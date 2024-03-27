@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{344e08d7-37e8-4ae0-b03a-f2d68ed69a10}">
 		<property name="name">
 			<value>Fence Grab</value>
@@ -56,7 +56,14 @@
 			<destination>{19475bdb-d5db-4a75-b1f3-ef71e43e2c61}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{22abf712-7fbc-4adb-ae97-09ab6dc53a60}" />
+	<object class="EventAutomatableProperties" id="{22abf712-7fbc-4adb-ae97-09ab6dc53a60}">
+		<property name="minimumDistance">
+			<value>2</value>
+		</property>
+		<property name="maximumDistance">
+			<value>90</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{7b39782e-4dae-4d01-b509-12fb6b16be99}" />
 	<object class="GroupTrack" id="{7e358866-48d4-4f8b-9cf3-329e6393cccd}">
 		<relationship name="modules">

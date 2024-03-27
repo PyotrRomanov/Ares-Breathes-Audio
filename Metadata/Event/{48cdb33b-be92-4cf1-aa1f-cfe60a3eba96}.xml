@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{48cdb33b-be92-4cf1-aa1f-cfe60a3eba96}">
 		<property name="name">
 			<value>Storm Music</value>
@@ -158,21 +158,13 @@
 			<destination>{8ad1ec14-c67c-42d9-a08b-d338cd6dff1c}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{ac769070-8a89-4a28-857c-6961733e6fcf}</destination>
 			<destination>{db66a813-5f0c-4ba4-bc58-c97a97bda24f}</destination>
-			<destination>{c05554f2-5faf-4d5b-aa73-75b21e13f72b}</destination>
+			<destination>{ac769070-8a89-4a28-857c-6961733e6fcf}</destination>
 			<destination>{7987ba9b-925a-4ca0-b6da-3b0dffe012a4}</destination>
+			<destination>{c05554f2-5faf-4d5b-aa73-75b21e13f72b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{15d71b8a-2bcc-4b89-aa5c-2a611452ce0c}" />
-	<object class="AutomationPoint" id="{ac769070-8a89-4a28-857c-6961733e6fcf}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{db66a813-5f0c-4ba4-bc58-c97a97bda24f}">
 		<property name="position">
 			<value>0.59745762711864403</value>
@@ -181,12 +173,12 @@
 			<value>-80</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{c05554f2-5faf-4d5b-aa73-75b21e13f72b}">
+	<object class="AutomationPoint" id="{ac769070-8a89-4a28-857c-6961733e6fcf}">
 		<property name="position">
-			<value>0.85000000000000009</value>
+			<value>0</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{7987ba9b-925a-4ca0-b6da-3b0dffe012a4}">
@@ -195,6 +187,14 @@
 		</property>
 		<property name="value">
 			<value>3</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{c05554f2-5faf-4d5b-aa73-75b21e13f72b}">
+		<property name="position">
+			<value>0.85000000000000009</value>
+		</property>
+		<property name="value">
+			<value>1</value>
 		</property>
 	</object>
 </objects>

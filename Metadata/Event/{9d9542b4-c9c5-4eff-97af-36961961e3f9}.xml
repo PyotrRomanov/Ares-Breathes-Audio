@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9d9542b4-c9c5-4eff-97af-36961961e3f9}">
 		<property name="name">
 			<value>Atmospheric entry</value>
